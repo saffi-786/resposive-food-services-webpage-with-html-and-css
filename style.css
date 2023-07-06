@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    padding: 10px 20px;
+    color: black;
+}
+.navbar ul  li a:hover{
+    color: rgb(187, 39, 39);
+}
+.search{
+    float: right;
+    padding: 10px 75px;
+}
+.intro{
+    text-align: center;
+    background: url('homebg1.jpg') no-repeat center center/cover;
+    /* position: absolute; */
+    z-index: -1;
+    opacity: 1;
+    
+}
+.intro h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 100px auto 50px auto;
+    color: rgb(202, 81, 65);
+}
+.intro p{
+    padding-bottom: 40px;
+}
+.btn{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+    border: 2px solid red;
+    background-color: bisque;
+    border-radius: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(187, 28, 41);
+    color: wheat;
+}
+.innerBody h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+.Services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.service{
+    margin: 20px;
+    text-align: center;
+    border: 5px solid rgb(187, 28, 41);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+.service img{
+    height: 50%; 
+    width: 50%;
+    background-size: cover;
+}
+.service h3{
+    color: rgb(237, 74, 15);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service p{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Clients h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+
+.Contact h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px auto 30px auto;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2{
+    text-align: center;
+}
+
+.butt{
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: red;
+    color: antiquewhite;
+}
+
+
