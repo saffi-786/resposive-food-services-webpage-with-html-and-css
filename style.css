@@ -38,10 +38,6 @@
 .navbar ul  li a:hover{
     color: rgb(187, 39, 39);
 }
-.search{
-    float: right;
-    padding: 10px 75px;
-}
 .intro{
     text-align: center;
     background: url('homebg1.jpg') no-repeat center center/cover;
