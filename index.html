@@ -1,138 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mealsready</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="navbar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mealsready</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="/images/download.jpeg" alt="" width="50px" height="50px" class="logo" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- <div class="search">
+      <input type="search" placeholder="Search" id="search-box">
+    </div> -->
+    <div class="intro">
+      <h1>Welcome to my Kitchen</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+        voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsam, odit. Lorem ipsum, dolor sit amet consectetur adipisicing.
+        Lorem ipsum dolor sit amet.
+      </p>
+      <button class="btn">Order Now</button>
+    </div>
+  </div>
+  <div class="innerBody">
+    <h2>Our Services</h2>
+    <div class="Services">
+      <div class="service">
         <img
-          src="download.jpeg"
-          alt=""
-          width="50px"
-          height="50px"
-          class="logo"
-        />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="intro">
-        <h1>Welcome to my Kitchen</h1>
+          src="/images/covid-19-quarantine-coronavirus-epidemic-delivery-man-in-a-protective-mask-carries-pizza-on.jpg"
+          alt="" />
+        <h3>Food Ordering</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-          voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Ipsam, odit. Lorem ipsum, dolor sit amet consectetur adipisicing.
-          Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id
+          dolorum nulla excepturi, impedit voluptatibus. Doloribus animi
+          dolores quisquam iure.
         </p>
-        <button class="btn">Order Now</button>
+      </div>
+      <div class="service">
+        <img
+          src="/images/stock-vector-vector-illustration-of-fried-eggs-with-vegetables-isolated-on-white-background-1519043639.jpg"
+          alt="" />
+        <h3>Catering</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          recusandae et unde veniam assumenda obcaecati. Nostrum molestiae
+          quae ducimus quaerat.
+        </p>
+      </div>
+      <div class="service">
+        <img src="/images/drive-thru-fast-food-restaurant-vector-illustration-cartoon.jpg" alt="" />
+        <h3>Drive Thru</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et
+          omnis officiis eveniet odio in temporibus cum ipsum unde animi?
+        </p>
       </div>
     </div>
-    <div class="innerBody">
-      <h2>Our Services</h2>
-      <div class="Services">
-        <div class="service">
-          <img
-            src="covid-19-quarantine-coronavirus-epidemic-delivery-man-in-a-protective-mask-carries-pizza-on.jpg"
-            alt=""
-          />
-          <h3>Food Ordering</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id
-            dolorum nulla excepturi, impedit voluptatibus. Doloribus animi
-            dolores quisquam iure.
-          </p>
-        </div>
-        <div class="service">
-          <img
-            src="stock-vector-vector-illustration-of-fried-eggs-with-vegetables-isolated-on-white-background-1519043639.jpg"
-            alt=""
-          />
-          <h3>Catering</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            recusandae et unde veniam assumenda obcaecati. Nostrum molestiae
-            quae ducimus quaerat.
-          </p>
-        </div>
-        <div class="service">
-          <img
-            src="drive-thru-fast-food-restaurant-vector-illustration-cartoon.jpg"
-            alt=""
-          />
-          <h3>Drive Thru</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et
-            omnis officiis eveniet odio in temporibus cum ipsum unde animi?
-          </p>
-        </div>
-      </div>
-    </div>
+  </div>
 
-    <div class="Clients">
-      <h2>Our Clients</h2>
-    </div>
+  <div class="Clients">
+    <h2>Our Clients</h2>
+  </div>
 
-    <div class="Contact">
-      <h2>Contact Us</h2>
-      <div class="form">
-        <form action="backend.php">
-          <label for="name">Name:</label>
-          <div>
-            <input
-              type="text"
-              name="My Name"
-              id="name"
-              placeholder="Enter Name"
-              style="width: 500px"
-            />
-          </div>
-          <label for="email">Email:</label>
-          <div>
-            <input
-              type="email"
-              name="My Email"
-              id="email"
-              placeholder="Enter Email"
-              style="width: 500px"
-            />
-          </div>
-          <label for="phone">Phone Number:</label>
-          <div>
-            <input
-              type="number"
-              name="My Phone"
-              id="phone"
-              placeholder="Enter Phone Number"
-              style="width: 500px"
-            />
-          </div>
-          <label for="name">Message:</label>
-          <div>
-            <textarea
-              name="Message"
-              id="msg"
-              cols="30"
-              rows="2"
-              placeholder="Enter message"
-              style="width: 500px"
-            ></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="btn2">
-        <button class="butt" style="width: 500px">Send</button>
-      </div>
+  <div class="Contact">
+    <h2>Contact Us</h2>
+    <div class="form">
+      <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+          <input type="text" name="My Name" id="name" placeholder="Enter Name" style="width: 500px" />
+        </div>
+        <label for="email">Email:</label>
+        <div>
+          <input type="email" name="My Email" id="email" placeholder="Enter Email" style="width: 500px" />
+        </div>
+        <label for="phone">Phone Number:</label>
+        <div>
+          <input type="number" name="My Phone" id="phone" placeholder="Enter Phone Number" style="width: 500px" />
+        </div>
+        <label for="name">Message:</label>
+        <div>
+          <textarea name="Message" id="msg" cols="30" rows="2" placeholder="Enter message"
+            style="width: 500px"></textarea>
+        </div>
+      </form>
     </div>
-  </body>
+    <div class="btn2">
+      <button class="butt" style="width: 500px">Send</button>
+    </div>
+  </div>
+</body>
+
 </html>
