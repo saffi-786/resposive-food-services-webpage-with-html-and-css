@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mealsready</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap"
-    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:ital,wght@1,300&family=Quicksand:wght@300;400;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -15,16 +18,16 @@
     <div class="navbar">
       <img src="/images/download.jpeg" alt="" width="50px" height="50px" class="logo" />
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#Services">Services</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
       </ul>
     </div>
     <!-- <div class="search">
       <input type="search" placeholder="Search" id="search-box">
     </div> -->
-    <div class="intro">
+    <div id="intro">
       <h1>Welcome to my Kitchen</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
@@ -37,11 +40,10 @@
   </div>
   <div class="innerBody">
     <h2>Our Services</h2>
-    <div class="Services">
+    <div id="Services">
       <div class="service">
-        <img
-          src="images\3-37779_transparent-delivery-png-delivery-boy-with-bike-png_adobe_express.png"
-          alt="" class="img-1"/>
+        <img src="images\3-37779_transparent-delivery-png-delivery-boy-with-bike-png_adobe_express.png" alt=""
+          class="img-1" />
         <h3>Food Delivery</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id
@@ -50,9 +52,8 @@
         </p>
       </div>
       <div class="service">
-        <img
-          src="images\858-8585415_pizza-clipart-fast-food-pizza-lunch-clipart_adobe_express.png"
-          alt="" class="img-2"/>
+        <img src="images\858-8585415_pizza-clipart-fast-food-pizza-lunch-clipart_adobe_express.png" alt=""
+          class="img-2" />
         <h3>Dine In</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -61,7 +62,7 @@
         </p>
       </div>
       <div class="service">
-        <img src="images\drive-thru-sign-illustration-with-car_23-2148665121_adobe_express.png" alt="" class="img-3"/>
+        <img src="images\drive-thru-sign-illustration-with-car_23-2148665121_adobe_express.png" alt="" class="img-3" />
         <h3>Drive Thru</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et
@@ -74,9 +75,9 @@
   <!-- <div class="Clients">
     <h2>Our Clients</h2>
   </div> -->
-  
+
   <h2 class="ContactHeading">Contact Us</h2>
-  <div class="Contact">
+  <div id="Contact">
     <div class="form">
       <form action="backend.php">
         <label for="name">Name:</label>
